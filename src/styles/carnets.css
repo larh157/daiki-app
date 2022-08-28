@@ -1,0 +1,83 @@
+:root {
+    --color-fondo: linear-gradient(90deg, rgb(150, 225, 235),rgba(45, 54, 102, 0.63));
+  }
+
+
+#carnet {
+    height: 8.5cm;
+    width: 5.5cm;
+    border: 1px solid black;
+    background: var(--color-fondo);
+    border-radius: 5%;
+}
+
+#imagen {
+    /* position: fixed; */
+    position: absolute;
+    z-index: 1;
+    height: 85mm;
+    width: 55mm;
+    object-fit: contain;
+    /* border: 2px solid salmon; */
+    box-sizing: border-box;
+   /* border-left: 1px solid black; */
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    font-family: Brush Script MT;
+    color: rgb(5, 36, 102);
+    text-shadow:1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey;
+  letter-spacing: 3px;
+}
+
+#name,
+#cedula {
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
+    /* font-size: x-large; */
+   
+ 
+   
+ 
+}
+
+/* solo para configurar el margen superior */
+#cedula{
+    margin-top: 1.5mm;
+    /* font-size: x-large; */
+}
+#name{
+    margin-bottom: 1mm;
+    
+}
+
+#texto2{
+    max-width: 207.886px;
+    max-height: 68.866px;
+}
+
+#vacio{
+    height: 48mm;
+    /* border-radius: 5%; */
+ background: linear-gradient(90deg, rgb(242 250 255 / 95%),rgb(140 156 181 / 95%) );
+  
+}
+
+#tipo{
+    margin-top: 1rem;
+
+}
+
+.tipoC{
+    font-family: Helvetica, sans-serif !important;
+    font-style: italic;
+    padding-top: 0.5rem;
+padding-bottom: -1rem;
+
+}
+
